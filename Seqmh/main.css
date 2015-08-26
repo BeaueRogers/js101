@@ -1,0 +1,124 @@
+/**Body**/
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/**Navagation**/
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 50em;
+  display: flex;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+}
+.flex-container > flex-navbar {
+  position: fixed;
+  width: 100%;
+  margin-bottom: 100px;
+}
+/*
+.navBar {
+  float: center;
+  list-style-type: none;
+  margin: 15px 5px;
+  display: inline-block;
+  background: #FFB4B0;
+  font-weight: 800;
+  padding: 15px 10px;
+  border: solid;
+  width: 100%;
+  position: fixed;
+  height: 35px;
+}
+*/
+/* added .navBar before li -Beau*/
+.navBar li {
+  list-style-type: none;
+  display: inline-block;
+}
+/* moved these up to the first  .navBar -Beau*/
+
+
+
+
+
+/**Genre Styling**/
+.songs {
+  background-color:#4DD7FA;
+}
+
+.genre input {
+  width: 40%;
+  float: left;
+  margin-top: 100px;
+}
+
+.clear {
+  clear: both;
+}
+
+
+/**Labeling Genre**/
+
+label {
+  width: 100%;
+}
+/**Right-Body Style Song Names**/
+
+.SongNames {
+  float: right;
+  width: 80%;
+  background-color: #FFF5EE;
+}
+
+h1 {
+  color:#785616;
+}
+
+ul{
+  color:#785616;
+}
+
+.moreSongs {
+  background-color: #F5FFFA;
+}
+
+/**Float**/
+.SongNames > h3 {
+  float: right;
+}
+
+.bluePart {
+  float:left;
+  width:20%;
+  margin-top: 100px;
+}
+.artistAndAlbum {
+  float:left;
+  width:20%;
+  margin-top: 100px;
+}
+.clear {
+  clear:both;
+}
+
+/**BUTTONS**/
+.deleteoption {
+  float:right;
+}
+
+/**BOLD**/
+#listOfSongs > h1 {
+  text:bold;
+}
+
+
+
+
+
+
+
+
+
+

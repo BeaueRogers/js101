@@ -1,0 +1,10 @@
+body {
+  background-color: teal;
+}
+.red {
+  background-color: red;
+}
+
+.bordered {
+  border: 10px solid black;
+}
